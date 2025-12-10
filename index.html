@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MITRAVEL - HOME</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__social">
+            <a href="#" class="header__social-link">
+              <img src="./assets/img/icons/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#" class="header__social-link">
+              <img src="./assets/img/icons/twitter.svg" alt="twitter" />
+            </a>
+          </div>
+          <a href="#" class="header__logo">MITRAVEL</a>
+          <button class="header__button" id="menu-button">
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="header__menu hidden" id="menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Our Story</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Recipes</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Jobs</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="buy-the-book hidden" id="buy-form">
+        <div class="container buy__container">
+          <div class="buy__content">
+            <h3 class="buy__title section-title">Buy The Book</h3>
+            <form class="buy__registration">
+              <div class="buy__registration-section">
+                <label for="name" class="form__label">Phone number</label>
+                <input
+                  type="tel"
+                  name="buy-phone"
+                  id="buy-tel"
+                  class="buy__registration-input form-input"
+                  required
+                />
+              </div>
+              <div class="buy__registration-buttons">
+                <button
+                  type="button"
+                  class="buy__registration-button form-button"
+                  id="close-button"
+                >
+                  Close
+                </button>
+                <button
+                  type="submit"
+                  class="buy__registration-button form-button"
+                  id="buy-accept"
+                >
+                  Call me
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="top">
+        <div class="global-container top__mask">
+          <div class="container">
+            <div class="top__inner">
+              <div class="top__left">
+                <span class="top__tag tag">NEW BOOK</span>
+                <h1 class="title">Mother Earth Hosts Our Travels</h1>
+                <p class="top__text">
+                  There are not many cities that have experienced such social
+                  and political extremes in recent history as Amsterdam. In the
+                  20th century alone, Amsterdam faced the atrocities of war for
+                  the first time in 400 years, became the radical center of
+                  1960s social movements and witnessed a complete
+                </p>
+                <button type="button" class="top__buy-button" id="buy-the-book">
+                  BUY THE BOOK
+                </button>
+                <search class="top__search">
+                  <form class="search__form" id="search-form">
+                    <input
+                      type="search"
+                      class="search__input"
+                      placeholder="Search stories"
+                    />
+                    <button type="submit" class="search__button"></button>
+                  </form>
+                </search>
+              </div>
+              <div class="top__right">
+                <div class="top__promo">
+                  <div class="top__promo-preview">
+                    <img
+                      src="./assets/img/top-previews/preview-1.jpg"
+                      alt="preview"
+                      class="top__promo-image"
+                      id="promo-preview"
+                    />
+                  </div>
+                  <div class="top__promo-tools">
+                    <button class="player__button" id="previous"></button>
+                    <p class="promo__title" id="promo-title">
+                      wonderful mountain
+                    </p>
+                    <button class="player__button" id="next"></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lesson">
+        <div class="container">
+          <div class="lesson__inner">
+            <h2 class="section-title lesson__title">
+              Become A Travel Pro In One Easy Lesson
+            </h2>
+            <ul class="lesson__list">
+              <li class="lesson__list-item">
+                <img
+                  src="./assets/img/place-1.jpg"
+                  alt="place"
+                  class="lesson__img"
+                />
+                <span class="lesson__img-info">Lorem ipsum dolor sit.</span>
+              </li>
+              <li class="lesson__list-item">
+                <img
+                  src="./assets/img/place-2.jpg"
+                  alt="place"
+                  class="lesson__img"
+                />
+                <span class="lesson__img-info"
+                  >Vacation Home Rental Success</span
+                >
+              </li>
+              <li class="lesson__list-item">
+                <img
+                  src="./assets/img/place-3.jpg"
+                  alt="place"
+                  class="lesson__img"
+                />
+                <span class="lesson__img-info">Lorem ipsum dolor sit.</span>
+              </li>
+              <li class="lesson__list-item">
+                <img
+                  src="./assets/img/place-4.jpg"
+                  alt="place"
+                  class="lesson__img"
+                />
+                <span class="lesson__img-info">Lorem ipsum dolor sit.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured">
+        <div class="global-container">
+          <div class="featured__inner">
+            <div class="featured__left">
+              <div class="featured__left-container">
+                <div class="featured__left-content">
+                  <span class="tag featured__tag">FEATURED</span>
+                  <h2 class="featured__title section-title">
+                    How To Fly A Private Jet On Your Next Trip
+                  </h2>
+                  <p class="featured__text">
+                    The state of Utah in the United States is home to lots of
+                    beautiful National Parks, & Bryce Canyon National Park ranks
+                    as three of the most magnificent & awe inspiring.
+                  </p>
+                </div>
+                <a href="#" class="featured__link section-link">READ ARTICLE</a>
+              </div>
+            </div>
+            <aside class="featured__right">
+              <h3 class="featured__subtitle section-title">Featured Stories</h3>
+              <ul class="featured__articles">
+                <li class="featured__articles-item">
+                  <article class="featured__article">
+                    <img
+                      src="../assets/img/avatar-1.png"
+                      alt="avatar"
+                      class="article__avatar"
+                    />
+                    <div class="article__content">
+                      <h3 class="article__title">
+                        Do A Sporting Stag Do In Birmingham
+                      </h3>
+                      <time datetime="2019-12-13" class="article__time"
+                        >13 Dec 2019</time
+                      >
+                    </div>
+                  </article>
+                  <hr class="article__separator" />
+                </li>
+                <li class="featured__articles-item">
+                  <article class="featured__article">
+                    <img
+                      src="../assets/img/avatar-2.png"
+                      alt="avatar"
+                      class="article__avatar"
+                    />
+                    <div class="article__content">
+                      <h3 class="article__title">
+                        From Wetlands To Canals And Dams Amsterdam Is Alive
+                      </h3>
+                      <time datetime="2019-12-13" class="article__time"
+                        >13 Dec 2019</time
+                      >
+                    </div>
+                  </article>
+                  <hr class="article__separator" />
+                </li>
+                <li class="featured__articles-item">
+                  <article class="featured__article">
+                    <img
+                      src="../assets/img/avatar-3.png"
+                      alt="avatar"
+                      class="article__avatar"
+                    />
+                    <div class="article__content">
+                      <h3 class="article__title">
+                        Stu Unger Rise And Fall Of A Poker Genius
+                      </h3>
+                      <time datetime="2019-12-13" class="article__time"
+                        >13 Dec 2019</time
+                      >
+                    </div>
+                  </article>
+                  <hr class="article__separator" />
+                </li>
+                <li class="featured__articles-item">
+                  <article class="featured__article">
+                    <img
+                      src="../assets/img/avatar-4.png"
+                      alt="avatar"
+                      class="article__avatar"
+                    />
+                    <div class="article__content">
+                      <h3 class="article__title">
+                        New Ideas For A Low Cost Vacation On Water
+                      </h3>
+                      <time datetime="2019-12-13" class="article__time"
+                        >13 Dec 2019</time
+                      >
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="videos">
+        <div class="global-container">
+          <div class="videos__content">
+            <div class="container videos__container">
+              <h2 class="section-title videos__title">Featured Videos</h2>
+              <p class="videos__text">
+                The state of Utah in the United States is home to lots of
+                beautiful National Parks, & Bryce Canyon National Park ranks as
+                three of the most magnificent & awe inspiring.
+              </p>
+            </div>
+            <ul class="videos__slider">
+              <li class="videos__video">
+                <img
+                  src="./assets/img/videos-preview/preview-1.jpg"
+                  alt="preview"
+                  class="video__preview"
+                />
+                <span class="video__preview-mask"></span
+                ><button class="video__play"></button>
+                <h4 class="video__title">Lorem ipsum dolor sit amet.</h4>
+              </li>
+              <li class="videos__video active">
+                <img
+                  src="./assets/img/videos-preview/preview-2.jpg"
+                  alt="preview"
+                  class="video__preview"
+                />
+                <span class="video__preview-mask"></span
+                ><button class="video__play"></button>
+                <h4 class="video__title">
+                  A Guide To Rocky Mountain Vacations
+                </h4>
+              </li>
+              <li class="videos__video">
+                <img
+                  src="./assets/img/videos-preview/preview-3.jpg"
+                  alt="preview"
+                  class="video__preview"
+                />
+                <span class="video__preview-mask"></span
+                ><button class="video__play"></button>
+                <h4 class="video__title">Lorem ipsum dolor sit amet.</h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="signup">
+        <div class="container signup__container">
+          <div class="signup__inner">
+            <div class="signup__left">
+              <h2 class="signup__title section-title">
+                Sign Up Our Newsletter
+              </h2>
+              <p class="signup__text">
+                The state of Utah in the United States is home to lots of
+                beautiful National Parks, & Bryce Canyon National Park ranks as
+                three of the most magnificent.
+              </p>
+            </div>
+            <form action="#" class="signup__form">
+              <div class="form__section">
+                <label for="name" class="form__label">Name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form__section">
+                <label for="email" class="form__label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                />
+              </div>
+              <div class="form__section">
+                <label for="phone" class="form__label">Phone Number</label>
+                <input type="tel" name="phone" id="phone" class="form-input" />
+              </div>
+              <button
+                type="submit"
+                name="sign-up"
+                class="form-button signup__button"
+              >
+                SIGN UP NOW
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="inspirations">
+        <div class="container inspirations__container">
+          <div class="inspirations-top">
+            <h2 class="section-title inspirations__title">Inspirations</h2>
+            <p class="inspirations__text">
+              The state of Utah in the United States is home to lots of
+              beautiful National Parks, & Bryce Canyon National Park ranks as
+              three of the most magnificent & awe inspiring.
+            </p>
+          </div>
+          <div class="inspirations__cards">
+            <ul class="inspirations__cards-list">
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <p class="inspirations__card-theme">DESTINATIONS</p>
+                    <h3 class="inspirations__card-title">
+                      A Guide To Rocky Mountain Vacations
+                    </h3>
+                    <p class="inspirations__card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsum rem quis aliquid quaerat fugit expedita et a
+                      maiores!
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-1.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-2.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-3.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="inspirations__card-right">
+                    <span class="tag inspirations__card-tag">featured</span>
+                  </div>
+                </article>
+              </li>
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <p class="inspirations__card-theme">DESTINATIONS</p>
+                    <h3 class="inspirations__card-title">
+                      Traveling To Barcelona
+                    </h3>
+                    <p class="inspirations__card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsum rem quis aliquid quaerat fugit expedita et a
+                      maiores!
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-4.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-2.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <p class="inspirations__card-theme">DESTINATIONS</p>
+                    <h3 class="inspirations__card-title">
+                      Party Jokes Startling But Unnecessary
+                    </h3>
+                    <p class="inspirations__card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsum rem quis aliquid quaerat fugit expedita et a
+                      maiores!
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-1.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-4.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <h3 class="inspirations__card-title">
+                      Maui By Air The Best Way Around The Island
+                    </h3>
+                    <p class="inspirations__card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsum rem quis aliquid quaerat fugit expedita et a
+                      maiores!
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-2.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-3.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <h3 class="inspirations__card-title">Andre Gide</h3>
+                    <p class="inspirations__card-text">
+                      Man cannot discover new oceans unless he has the courage
+                      to lose sight of the shore.
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-4.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-1.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <p class="inspirations__card-theme">DESTINATIONS</p>
+                    <h3 class="inspirations__card-title">
+                      Traveling To Barcelona
+                    </h3>
+                    <p class="inspirations__card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsum rem quis aliquid quaerat fugit expedita et a
+                      maiores!
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-1.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-2.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="inspirations__cards-item">
+                <article class="inspirations__card">
+                  <div class="inspirations__card-left">
+                    <p class="inspirations__card-theme">DESTINATIONS</p>
+                    <h3 class="inspirations__card-title">
+                      A Guide To Rocky Mountain Vacations
+                    </h3>
+                    <p class="inspirations__card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsum rem quis aliquid quaerat fugit expedita et a
+                      maiores!
+                    </p>
+                    <div class="avatars">
+                      <ul class="avatars__list">
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-3.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-1.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                        <li class="avatars__list-item">
+                          <img
+                            src="./assets/img/inspirations-avatars/avatar-4.png"
+                            alt="avatar"
+                            class="inspirations__avatar"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="inspirations__card-right">
+                    <span class="tag inspirations__card-tag">featured</span>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Company</p>
+              <hr class="footer__menu-separator" />
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">About</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Press</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Blog</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Careers</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Security</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Driver Centre</a>
+            </li>
+          </ul>
+
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Information</p>
+              <hr class="footer__menu-separator" />
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Our Story</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Recipes</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Nutrition</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Resources</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Newsletter</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Information</p>
+              <hr class="footer__menu-separator" />
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Customer service</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Recommend a restaurant</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Signup a restaurant</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Jobs</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Press</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#" class="footer__menu-link">Terms of use</a>
+            </li>
+          </ul>
+
+          <div class="footer__subscribe">
+            <p class="footer__menu-title">Information</p>
+            <hr class="footer__menu-separator" />
+            <form action="#" class="footer__subscribe-form">
+              <div class="footer__subscribe-form-field">
+                <input
+                  type="email"
+                  name="email-input"
+                  id="footer-email"
+                  class="footer__subscribe-email"
+                  placeholder="Your email"
+                />
+              </div>
+              <button
+                type="submit"
+                class="form-button footer__subscribe-button"
+              >
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="container">
+          <div class="footer__copyright-inner">
+            <p class="copyright__text">
+              © 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass
+              Impressions. All rights reserved.
+            </p>
+            <ul class="copyright__links">
+              <li class="copyright__links-item">
+                <a href="#" class="copyright__link">Terms of Service</a>
+              </li>
+              <li class="copyright__links-item">
+                <a href="#" class="copyright__link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
